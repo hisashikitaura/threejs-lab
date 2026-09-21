@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 06: テクスチャ — Three.js Lab</title>
+    <link rel="stylesheet" href="/src/shared/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1><a href="../../index.html">Three.js Lab</a></h1>
+      <span class="badge">Lesson 06</span>
+    </header>
+
+    <main class="layout lesson-layout">
+      <aside class="panel">
+        <h2>テクスチャ</h2>
+        <ul class="concepts">
+          <li><strong>TextureLoader</strong> / キャンバスからテクスチャ生成</li>
+          <li>material.map にテクスチャを設定</li>
+          <li>外部 CDN に依存しないオフライン向け手法</li>
+        </ul>
+        <p class="notice">キャンバスで描いたパターンをテクスチャにしています。色スライダーでベース色を変えられます。</p>
+        <div class="controls">
+          <div class="control-row">
+            <label for="tint">ベース色</label>
+            <input type="color" id="tint" value="#ffffff" />
+          </div>
+        </div>
+        <nav class="nav-lessons">
+          <a href="../05-multiple-objects/index.html">← 前のレッスン</a>
+          <a class="disabled" href="#">次のレッスン →</a>
+        </nav>
+      </aside>
+
+      <div class="canvas-wrap" id="canvas-wrap">
+                <div class="hint">ドラッグで視点変更</div>
+      </div>
+    </main>
+
+    <script type="module" src="/src/lessons/06-textures.ts"></script>
+  </body>
+</html>

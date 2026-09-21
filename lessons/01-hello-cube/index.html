@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 01: Hello Cube — Three.js Lab</title>
+    <link rel="stylesheet" href="/src/shared/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1><a href="../../index.html">Three.js Lab</a></h1>
+      <span class="badge">Lesson 01</span>
+    </header>
+
+    <main class="layout lesson-layout">
+      <aside class="panel">
+        <h2>Hello Cube</h2>
+        <ul class="concepts">
+          <li><strong>Scene</strong> … オブジェクトを置く世界</li>
+          <li><strong>PerspectiveCamera</strong> … 視点</li>
+          <li><strong>WebGLRenderer</strong> … 画面に描画</li>
+          <li><strong>BoxGeometry + MeshBasicMaterial + Mesh</strong></li>
+        </ul>
+        <p class="notice">まずは「一度だけ描画」しています。ライトなしでも見える MeshBasicMaterial です。</p>
+
+        <nav class="nav-lessons">
+          <a class="disabled" href="#">← 前のレッスン</a>
+          <a href="../02-lights-materials/index.html">次のレッスン →</a>
+        </nav>
+      </aside>
+
+      <div class="canvas-wrap" id="canvas-wrap">
+        
+      </div>
+    </main>
+
+    <script type="module" src="/src/lessons/01-hello-cube.ts"></script>
+  </body>
+</html>

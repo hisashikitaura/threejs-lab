@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three.js Lab — はじめての Three.js</title>
+    <link rel="stylesheet" href="/src/shared/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1><a href="./index.html">Three.js Lab</a></h1>
+      <span class="badge">vanilla Three.js · Vite · TypeScript</span>
+    </header>
+
+    <main class="layout">
+      <section class="home-hero">
+        <h2>短いデモで学ぶ Three.js</h2>
+        <p>
+          Scene / Camera / Renderer / Mesh / Geometry / Material / Light /
+          アニメーションループ / OrbitControls を、順番に短いレッスンで体感します。
+          React や R3F は使いません。
+        </p>
+      </section>
+
+      <ol class="lesson-list">
+        <li>
+          <a class="lesson-card" href="./lessons/01-hello-cube/index.html">
+            <span class="num">Lesson 01</span>
+            <span class="title">Hello Cube</span>
+            <p class="desc">Scene・PerspectiveCamera・WebGLRenderer・BoxGeometry・MeshBasicMaterial</p>
+          </a>
+        </li>
+        <li>
+          <a class="lesson-card" href="./lessons/02-lights-materials/index.html">
+            <span class="num">Lesson 02</span>
+            <span class="title">ライトとマテリアル</span>
+            <p class="desc">AmbientLight・DirectionalLight・MeshStandardMaterial</p>
+          </a>
+        </li>
+        <li>
+          <a class="lesson-card" href="./lessons/03-animation/index.html">
+            <span class="num">Lesson 03</span>
+            <span class="title">アニメーション</span>
+            <p class="desc">requestAnimationFrame・回転・Clock</p>
+          </a>
+        </li>
+        <li>
+          <a class="lesson-card" href="./lessons/04-orbit-controls/index.html">
+            <span class="num">Lesson 04</span>
+            <span class="title">OrbitControls</span>
+            <p class="desc">ドラッグでカメラを周回・ズーム・パン</p>
+          </a>
+        </li>
+        <li>
+          <a class="lesson-card" href="./lessons/05-multiple-objects/index.html">
+            <span class="num">Lesson 05</span>
+            <span class="title">複数オブジェクト</span>
+            <p class="desc">Group と色の違う複数メッシュ</p>
+          </a>
+        </li>
+        <li>
+          <a class="lesson-card" href="./lessons/06-textures/index.html">
+            <span class="num">Lesson 06</span>
+            <span class="title">テクスチャ</span>
+            <p class="desc">TextureLoader とキャンバス生成テクスチャ（オフライン可）</p>
+          </a>
+        </li>
+      </ol>
+
+      <p class="footer-note">学習順は上から下へ。各ページの説明を読みながら動かしてみてください。</p>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 04: OrbitControls — Three.js Lab</title>
+    <link rel="stylesheet" href="/src/shared/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1><a href="../../index.html">Three.js Lab</a></h1>
+      <span class="badge">Lesson 04</span>
+    </header>
+
+    <main class="layout lesson-layout">
+      <aside class="panel">
+        <h2>OrbitControls</h2>
+        <ul class="concepts">
+          <li><strong>OrbitControls</strong>（three/addons）</li>
+          <li>左ドラッグ … 周回 / ホイール … ズーム / 右ドラッグ … パン</li>
+          <li>controls.update() をループ内で呼ぶ</li>
+        </ul>
+        <p class="notice">カメラを動かすと、Scene・Light・Mesh の関係が立体として理解しやすくなります。</p>
+
+        <nav class="nav-lessons">
+          <a href="../03-animation/index.html">← 前のレッスン</a>
+          <a href="../05-multiple-objects/index.html">次のレッスン →</a>
+        </nav>
+      </aside>
+
+      <div class="canvas-wrap" id="canvas-wrap">
+                <div class="hint">ドラッグしてカメラを回してみてください</div>
+      </div>
+    </main>
+
+    <script type="module" src="/src/lessons/04-orbit-controls.ts"></script>
+  </body>
+</html>

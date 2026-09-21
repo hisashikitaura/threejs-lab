@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 02: ライトとマテリアル — Three.js Lab</title>
+    <link rel="stylesheet" href="/src/shared/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1><a href="../../index.html">Three.js Lab</a></h1>
+      <span class="badge">Lesson 02</span>
+    </header>
+
+    <main class="layout lesson-layout">
+      <aside class="panel">
+        <h2>ライトとマテリアル</h2>
+        <ul class="concepts">
+          <li><strong>AmbientLight</strong> … 全体を薄く照らす</li>
+          <li><strong>DirectionalLight</strong> … 太陽光のような平行光</li>
+          <li><strong>MeshStandardMaterial</strong> … ライトに反応する物理ベース材質</li>
+        </ul>
+        <p class="notice">色を変えると、陰影の付き方が Basic とは違うことが分かります。</p>
+        <div class="controls">
+          <div class="control-row">
+            <label for="color">メッシュの色</label>
+            <input type="color" id="color" value="#5b9dff" />
+          </div>
+        </div>
+        <nav class="nav-lessons">
+          <a href="../01-hello-cube/index.html">← 前のレッスン</a>
+          <a href="../03-animation/index.html">次のレッスン →</a>
+        </nav>
+      </aside>
+
+      <div class="canvas-wrap" id="canvas-wrap">
+        
+      </div>
+    </main>
+
+    <script type="module" src="/src/lessons/02-lights-materials.ts"></script>
+  </body>
+</html>
