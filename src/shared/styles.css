@@ -276,3 +276,19 @@ a:hover {
   font-size: 0.85rem;
   text-align: center;
 }
+
+.control-row select {
+  background: #121821;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.25rem 0.4rem;
+  font-size: 0.85rem;
+}
+
+.control-row input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}

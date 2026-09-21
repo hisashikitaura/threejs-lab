@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 10: パーティクル — Three.js Lab</title>
+    <link rel="stylesheet" href="/src/shared/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1><a href="../../index.html">Three.js Lab</a></h1>
+      <span class="badge">Lesson 10</span>
+    </header>
+
+    <main class="layout lesson-layout">
+      <aside class="panel">
+        <h2>パーティクル</h2>
+        <ul class="concepts">
+          <li><strong>BufferGeometry</strong> に position 属性を載せる</li>
+          <li><strong>Points</strong> + <strong>PointsMaterial</strong></li>
+          <li>毎フレーム少し位置を動かしてアニメーション</li>
+        </ul>
+        <p class="notice">大量の点を軽く描く基本形です。個数スライダーで密度を変えてみましょう。</p>
+        <div class="controls">
+          <div class="control-row">
+            <label for="count">個数</label>
+            <input type="range" id="count" min="200" max="4000" step="100" value="1200" />
+          </div>
+          <div class="control-row">
+            <label>現在</label>
+            <span id="count-label">1200</span>
+          </div>
+        </div>
+        <nav class="nav-lessons">
+          <a href="../09-fog/index.html">← 前のレッスン</a>
+          <a class="disabled" href="#">次のレッスン →</a>
+        </nav>
+      </aside>
+
+      <div class="canvas-wrap" id="canvas-wrap">
+                <div class="hint">ドラッグで視点変更</div>
+      </div>
+    </main>
+
+    <script type="module" src="/src/lessons/10-particles.ts"></script>
+  </body>
+</html>

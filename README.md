@@ -12,6 +12,10 @@ React / R3F は使いません。UI と説明は日本語です。
 - OrbitControls
 - Group・複数オブジェクト
 - テクスチャ（キャンバス生成・オフライン可）
+- シャドウ（castShadow / receiveShadow / shadowMap）
+- レイキャスター（NDC・intersectObjects）
+- フォグ（Fog / FogExp2）
+- パーティクル（Points / BufferGeometry）
 
 ## セットアップ
 
@@ -31,7 +35,7 @@ npm run preview
 
 ## 学習の順番
 
-ホームの一覧どおり、**01 → 06** の順がおすすめです。
+ホームの一覧どおり、**01 → 10** の順がおすすめです。
 
 | # | レッスン | ポイント |
 |---|----------|----------|
@@ -41,6 +45,10 @@ npm run preview
 | 04 | OrbitControls | ドラッグで周回・ズーム |
 | 05 | 複数オブジェクト | Group と色違いメッシュ |
 | 06 | テクスチャ | CanvasTexture（CDN 不要） |
+| 07 | シャドウ | DirectionalLight.castShadow・Plane 地面 |
+| 08 | レイキャスター | NDC・Raycaster・クリック選択 |
+| 09 | フォグ | Fog / FogExp2 とスライダー |
+| 10 | パーティクル | Points + BufferGeometry アニメーション |
 
 各ページに「前へ / 次へ」リンクがあります。
 
@@ -55,7 +63,11 @@ threejs-lab/
 │   ├── 03-animation/
 │   ├── 04-orbit-controls/
 │   ├── 05-multiple-objects/
-│   └── 06-textures/
+│   ├── 06-textures/
+│   ├── 07-shadows/
+│   ├── 08-raycaster/
+│   ├── 09-fog/
+│   └── 10-particles/
 ├── src/
 │   ├── lessons/               # 各レッスンの TypeScript
 │   └── shared/
